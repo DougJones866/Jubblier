@@ -20,11 +20,24 @@
 </template>
 
 <script>
-
-
-
 export default {
-    
+  methods: {
+      twitter() {
+        window.open('https://twitter.com/Jubblier', '_blank');
+      },
+      tumblr() {
+        window.open('https://jooblesbeebles.tumblr.com/', '_blank');
+      },
+      twitch() {
+        window.open('https://www.twitch.tv/jubblier', '_blank');
+      },
+      email() {
+        window.open("mailto:jule2kool@hotmail.com", '_blank');
+      },
+      waitlist() {
+        window.open('https://trello.com/b/KtQOGlUu/jubblier-commission-queue', '_blank');
+      },
+    }
 
 }
 </script>
