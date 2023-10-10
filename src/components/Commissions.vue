@@ -1,13 +1,19 @@
 <template>
     <div class="container">
       <base-card :title="sketch">
-        <div></div>
+      <div>
+          <img src="../assets/images/chibi.png" />
+        </div>
       </base-card>
       <base-card :title="cSketch">
-        <div></div>
+      <div>
+          <img src="../assets/images/chibi.png" />
+        </div>
       </base-card>
       <base-card :title="fColor">
-        <div></div>
+      <div>
+          <img src="../assets/images/chibi.png" />
+        </div>
       </base-card>
       <base-card :title="chibi">
         <div>
